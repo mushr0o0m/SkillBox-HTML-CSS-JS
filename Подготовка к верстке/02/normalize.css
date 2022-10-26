@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a{
+    color: inherit;
+	text-decoration: none;
+}
+
+html{
+    font-size: 18px;
+    min-height: 100vh;
+    line-height: 1;
+}
+
+button{
+    cursor: pointer;
+}
+
+input,
+button{
+    -webkit-appearance: none;
+}
+/* "webkit-appearance": Свойство внешнего вида отображает элемент с использованием собственного стиля платформы, основанного на теме операционной системы пользователя. Это свойство предназначено для работы в браузерах, работающих на базе браузерного движка WebKit, таких как Apple Safari и Google Chrome
+"vh": Эквивалентно 1% высоты окна браузера.
+"vw": Эквивалентно 1% ширины окна браузера.
+*/

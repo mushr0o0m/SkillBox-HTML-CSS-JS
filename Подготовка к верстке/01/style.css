@@ -1,0 +1,91 @@
+body{
+    height: 3000px;
+}
+.big-squre{
+    background-color: darkgrey;
+    margin-bottom: 70px;
+}
+
+.description{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.squre{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.col-1{
+    background-color: blue;
+}
+
+.col-2{
+    background-color: blueviolet;
+}
+
+.col-3{
+    background-color: darkgreen;
+}
+
+.col-4{
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+}
+
+.relat{
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+.relative-block{
+    position: relative;
+}
+
+.absol{
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+    left: 70px;
+}
+
+.absol-big{
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 50px;
+}
+
+.static{
+    position: static;
+    text-align:center;
+}
+
+.sticky-block{
+    position: sticky;
+    z-index: 150;
+    top: 0;
+}
+
+.frame{
+    margin-bottom: 50px;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+}
+
+.frame-fixed-block{
+    position: fixed;
+    bottom: 3%;
+    left: 70%;
+    z-index: 200;
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid red;
+    background-color: aliceblue;
+}

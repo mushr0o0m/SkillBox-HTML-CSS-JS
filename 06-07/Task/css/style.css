@@ -1,0 +1,221 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    min-width: 1200px;
+    font-family: 'font', sans-serif;
+}
+
+/* glob */
+
+.list-reset{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-offset{
+    margin-bottom: 70px;
+}
+
+.section-title{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+/* header */
+
+.header{
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
+
+.header-info{
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.header-info-left{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-info-right{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-link-icon{
+    margin-right: 7px;
+}
+
+.header-logo{
+    margin: auto 0;
+    margin-right: 40px;
+}
+
+.header-nav-item:not(:last-child){
+    margin-right: 45px;
+}
+
+.btn-header:not(:last-child){
+    margin-right: 40px;
+}
+
+.header-nav-block{
+    justify-content: space-between;
+    padding: 27px 42px;
+    outline: 1px solid black;
+}
+
+/* specials */
+
+.specials-list{
+    flex-wrap: wrap;
+}
+
+.special-item:first-child{
+    margin-bottom: 24px;
+}
+
+.special-item{
+    width: 573px;
+}
+
+.special-card{
+    flex-direction: column;
+    padding: 40px 45px;
+    outline: 1px solid black;
+}
+
+.special-card-title{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/* about-us */
+
+.about-us-text{
+    margin: 0;
+}
+
+/* services */
+
+.services-list{
+    flex-wrap: wrap;
+}
+
+.services-item{
+    width: 573px;
+    margin-bottom: 24px;
+    padding: 35px 45px;
+    outline: 1px solid black;
+}
+
+.services-item:not(:nth-of-type(2n)){
+    margin-right: 24px;
+}
+
+.services-item-title{
+    margin: 0;
+}
+
+.services-item-descr{
+    margin: 0;
+}
+
+/* benefits */
+
+.benefits-list{
+    flex-wrap: wrap;
+}
+
+.benefits-item{
+    width: 276px;
+    margin-bottom: 22px;
+    /* padding: 116px 42px 32px 45px; */
+    outline: 1px solid black;
+}
+
+.benefits-item:not(:nth-child(4n)){
+    margin-right: 22px;
+}
+
+.benefits-item-text{
+    margin: 0;
+}
+
+/* accommodation */
+
+.accommodation-list{
+    flex-wrap: wrap;
+}
+
+.accommodation-item{
+    width: 374px;
+    margin-bottom: 24px;
+    outline: 1px solid black;
+}
+
+.accommodation-item:not(:nth-child(3n)){
+    margin-right: 24px;
+}
+
+.accommodation-item-discr{
+    padding: 45px;
+    padding-top: 0;
+}
+
+.accommodation-item-text-price-and-type{
+    justify-content: space-between;
+}
+
+.accommodation-item-discr-text{
+    margin-bottom: 20px;
+}
+
+.accommodation-item-text-price-and-type{
+    margin-bottom: 16px;
+}
+
+.accommodation-item-discr-title{
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.accommodation-item-img{
+    max-width: 100%;
+}
+

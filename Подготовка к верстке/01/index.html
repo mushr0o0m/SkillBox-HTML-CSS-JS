@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test position</title>
+</head>
+<body>
+    <div class="big-squre">
+        <div class="squre col-1"></div>
+        <div class="squre col-2 relat"></div>
+        <div class="squre col-3"></div>
+        <div class="squre col-1"></div>
+        <div class="squre col-3"></div>
+        <div class="squre col-1"></div>
+        <div class="squre col-3"></div>
+        <div class="squre col-2 relat"></div>
+        <div class="squre col-1"></div>
+        <div class="squre col-3"></div>
+    </div>
+    <span class="description">
+        "position: relative" : Положение блока рассчитывается в соответствии с нормальным потоком. Затем блок смещается относительно его нормального положения и во всех случаях, включая элементы таблицы, не влияет на положение любых следующих блоков
+    </span>
+    <div class="big-squre relative-block">
+        <div class="squre col-1"></div>
+        <div class="squre col-2 absol"></div>
+        <div class="squre col-3"></div>
+        <div class="squre col-1"></div>
+        <div class="squre col-3"></div>
+        <div class="squre col-1"></div>
+        <div class="squre col-3"></div>
+        <div class="squre col-4 absol-big"></div>
+        <div class="squre col-1"></div>
+        <div class="squre col-3"></div>
+    </div>
+    <span class="description">
+        Эти свойства определяют явное смещение относительно его содержащего блока (Если не указать свойство position: relative у родительского блока, то смещение будет вычисляться относительно тега body). Абсолютно позиционированные блоки полностью удаляется из нормального потока, не влияя на расположение сестринских элементов.
+    </span>
+    <div class="big-squre">
+        <div class="squre col-1"></div>
+        <div class="squre col-2 static">
+            <strong>static</strong>
+        </div>
+        <div class="squre col-3"></div>
+        <div class="squre col-1"></div>
+        <div class="squre col-3"></div>
+        <div class="squre col-1"></div>
+        <div class="squre col-3"></div>
+        <div class="squre col-2 static">
+            <strong>static</strong>
+        </div>
+        <div class="squre col-1"></div>
+        <div class="squre col-3"></div>
+    </div>
+    <span class="description">
+        Блок располагается в соответствии с нормальным потоком. Свойства top, right, bottom и left не применяются. Значение по умолчанию.
+    </span>
+    <div class="frame">
+        <div class="squre col-3 sticky-block"></div>
+    </div>
+    <span class="description">
+        Элемент с position: sticky; фиксируется в рамках ближайшего родителя, когда расстояние до границы ближайшего прокручиваемого родителя достигает указанного в свойствах top, right, bottom, left значения. После того, как свойство position примет значение sticky, размер элемента не изменится, а соседние элементы не сдвинутся на освободившееся пространство.
+    </span>
+    <div class="frame-fixed-block">
+        Элемент с position: fixed; фиксируется в рамках области просмотра страницы, будь то в окне браузера или в iframe, расстояние до края которой указано в свойствах top, right, bottom, left.
+    </div>
+    <span class="description">
+        "initial": Устанавливает значение свойства в значение по умолчанию.
+    </span>
+    <span class="description">
+        "inherit": Наследует значение свойства от родительского элемента
+    </span>
+</body>
+</html>
